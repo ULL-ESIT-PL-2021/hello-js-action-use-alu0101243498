@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ULL-ESIT-PL-2021/hello-js-action-alu0101243498@v1
+        uses: ULL-ESIT-PL-2021/hello-js-action-alu0101243498@v2
         id: hello
         with:
           who-to-greet: 'Manu'
